@@ -1,6 +1,7 @@
 import { Column, Entity, ManyToOne } from "typeorm";
-import { Category } from "../categories/category.entity.js";
-import { BaseEntity } from "../helper/base.entity.js";
+import { BaseEntity } from "../../helper/base.entity.js";
+import { Category } from "../../categories/category.entity.js";
+
 
 @Entity()
 export class Product extends BaseEntity{
