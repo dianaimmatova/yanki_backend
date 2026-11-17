@@ -35,12 +35,12 @@ export class User extends BaseEntity {
         length: 200,
         nullable: true
     })
-    address: string | null
+    city: string | null
 
     @Column({
         type: 'varchar',
         length: 255,
         nullable: true
     })
-    mailAddress: string | null
+    postOffice: string | null
 }
