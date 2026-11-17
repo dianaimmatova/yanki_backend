@@ -11,6 +11,7 @@ import { SubscribersModule } from './subscribers/subscribers.module.js';
 import { ProductsModule } from './products/products.module.js';
 import { FavoritesModule } from './favorites/favorites.module.js';
 import { CartModule } from './cart/cart.module.js';
+import { OrdersModule } from './orders/orders.module.js';
 
 export const { ObserveModule, ObserveInstrument } = createObserveModule();
 
@@ -30,7 +31,8 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
     SubscribersModule,
     ProductsModule,
     FavoritesModule,
-    CartModule,
+    CartModule, 
+    OrdersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
